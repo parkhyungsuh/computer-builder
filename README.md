@@ -1,3 +1,5 @@
+이 프로젝트는 컴퓨터 조립시 자동으로 호환성 체크를 해주는 웹앱 프로젝트입니다. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
