@@ -1,5 +1,6 @@
 import React from 'react';
 import Navigation from './Components/Navigation';
+import ItemList from './Components/ItemList';
 
 class App extends React.Component {
   constructor(props) {
@@ -15,8 +16,8 @@ class App extends React.Component {
         <Navigation 
         category={this.state.category} 
         onChangeCategory={(cat) => this.setState({ category:cat })}
-
         />
+        <ItemList />
       </>
     )
   }
